@@ -1,9 +1,15 @@
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@font-face {
+  font-family: 'Poppins';
+  src: url('fonts/Poppins.ttf') format('truetype');
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
 
 body{
     background-color: black;
@@ -17,6 +23,7 @@ body{
 
 header{
     padding: 40px 4%;   
+
 }
 
 header > .interface{
@@ -24,3 +31,19 @@ header > .interface{
     align-items: center;
     justify-content: space-between;
 }
+
+header a{
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul{
+    list-style-type: none
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+
