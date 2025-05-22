@@ -33,8 +33,14 @@ header > .interface{
 }
 
 header a{
-    color: #fff;
+    color: #5e5e5e;
     text-decoration: none;
+    display: inline-block;
+}
+header a:hover{
+    color: #fff;
+    transform: scale(1.05);
+    transition: 0.2s;
 }
 
 header nav ul{
@@ -45,5 +51,20 @@ header nav ul li{
     display: inline-block;
     padding: 0 40px;
 }
+
+header .jpc-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(13, 206, 13);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+header .jpc-contato button:hover{
+    box-shadow: 0px 0px 8px #03f317;
+}
+
 
 
